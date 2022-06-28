@@ -1,7 +1,7 @@
 /* global */
 
 body {
-  font-family: "Bree Serif", sans-serif;
+  font-family: "Noto Sans Korean", "Bree Serif", sans-serif;
   -webkit-font-smoothing: antialiased;
   margin: 0 20px;
 }
@@ -25,6 +25,14 @@ a:hover {
 .post-ads {
   margin: 50px 0;
 }
+
+.markdown-body h2 {
+    margin-top: 80px;
+  }
+
+  .markdown-body h3 {
+    margin-top: 40px;
+  }
 
 .markdown-body {
   font-size: 18px;
@@ -81,7 +89,7 @@ a:hover {
   font-size: 2rem;
   font-weight: bold;
   margin-top: 32px;
-  font-family: "Bungee Shade", sans-serif;
+  font-family: "Noto Sans Korean", "Bungee Shade", sans-serif;
 }
 .header-title a {
   text-decoration: none;
@@ -157,6 +165,10 @@ a:hover {
   display: block;
   margin-right: auto;
   margin-top: 12px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #000;
+  border-radius: 10px;
 }
 
 .post-header {
@@ -262,6 +274,14 @@ a:hover {
 
   .posts-line {
     font-size: 16px;
+  }
+
+  .markdown-body h2 {
+    margin-top: 80px;
+  }
+
+  .markdown-body h3 {
+    margin-top: 40px;
   }
 
   .markdown-body {
