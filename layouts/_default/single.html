@@ -31,6 +31,11 @@
           {{ end }}
         </header>
 
+        <div class="related-content">
+          <h3>Table of Contents</h3>
+          {{.TableOfContents}}
+        </div>
+
         <div class="post-content markdown-body">
           {{ .Site.Params.postHeaderContent | safeHTML }}
           {{ .Content }}
